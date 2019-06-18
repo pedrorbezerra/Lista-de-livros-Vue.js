@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Lista de livros</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+
+  <body>
+    <div id="app" class="container">
+         <h2>{{cabecalho}}</h2>
+          <add-item-comp></add-item-comp>
+          <itens-comp></itens-comp>
+          <div class="footer">
+                <hr/>
+                <em>Mude o título da lista aqui:</em>
+                <altera-titulo-comp></altera-titulo-comp>
+          </div>
+      </div>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
+</html>
